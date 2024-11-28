@@ -196,6 +196,16 @@ main {
   background-color: #121212;
 }
 
+.darkmode .col-12 {
+  background-color: #121212;
+}
+.darkmode .dis-card {
+  background-color: #202020;
+}
+.darkmode .diss-top {
+  color: rgb(209, 205, 205);
+}
+
 .darkmode .copyright {
   background-color: #3C3D37;
   color: #fff;
@@ -204,6 +214,9 @@ main {
 .darkmode .scroll-up-btn {
   z-index: 1000;
 }
+.darkmode .replies{
+  color:white;
+}
 
 .darkmode .feature {
   background-color: #202020;
@@ -211,6 +224,10 @@ main {
 
 .darkmode .why-us h1 {
   color: #fff;
+}
+
+.darkmode .why-us p{
+  color: #f6f2f2;
 }
 
 .darkmode .why-us p {
@@ -232,6 +249,19 @@ main {
 .darkmode .card h6 {
   color: #fff;
 }
+.darkmode #testimonials p{
+  color: #fff;
+}
+.darkmode .card h2{
+  color: #fff;
+}
+
+.darkmode #testimonials h3{
+  color: #fff;
+} 
+.darkmode #testimonials h3+p{
+  color: #a39292;
+} 
 
 .darkmode #testimonials h3 {
   color: #fff;
@@ -240,6 +270,7 @@ main {
 .darkmode #testimonials h3+p {
   color: #8d8a8a;
 }
+
 
 .darkmode .feature p {
   color: #fff;
@@ -264,10 +295,26 @@ main {
 .darkmode .feature-item h6 {
   color: #fff;
 }
+.darkmode .feature-item h6 a{
+  color: #fff;
+}
 
 .darkmode .footer-container {
   background-color: #121212;
   border-top: 2px solid #fff;
+  color: #fff;
+}
+
+
+
+/*.darkmode .footer-container {
+  background-color: #121212;
+  border-top: 2px solid #fff;
+  color: #fff;
+}*/
+
+
+.darkmode .card p{
   color: #fff;
 }
 
@@ -303,6 +350,8 @@ main {
 
 .hamburger {
   display: none;
+  background-color: #359b6b; 
+
 }
 
 header {
@@ -510,7 +559,6 @@ nav ul li {
     top: 120px;
     left: 0;
     background-color: #f9f9f9;
-    border: 1px solid #ccc;
     padding: 10px;
     display: none;
   }
@@ -552,8 +600,6 @@ nav ul li {
 
   .menu.active {
     display: block;
-    border: 2px solid black;
-    border-radius: 50px;
   }
 
   .footer-description p {
@@ -1513,7 +1559,8 @@ a.new {
   box-shadow: 0px 0px 0px 2px #1f2d3a;
   cursor: pointer;
   text-align: center;
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
 .Sharing{
 	position: relative;
 	z-index: 1;
